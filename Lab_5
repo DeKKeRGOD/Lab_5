@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+double sum(double a, double b) 
+{
+	return a + b; 
+}
+double sub(double a, double b)  
+{
+	return a - b; 
+}
+double multip(double a, double b)  
+{
+	return a*b; 
+}
+double di(double a, double b)  
+{
+	return a / b; 
+}
+
+
+
+int main()
+{
+	double a = 2.5, b = 3.25; 
+             cout << sum(a, b) << endl;
+	cout << sub(a, b) << endl;
+	cout << multip(a, b) << endl;
+	cout << di(a, b) << endl;
+	
+	system("pause");
+}
